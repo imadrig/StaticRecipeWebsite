@@ -4,42 +4,31 @@
     <meta charset="UTF-8">
     <title> Static Recipe Website  </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/nav.css">
 
 </head>
 <body>
-<nav class="navbar navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="#">Home</a>
-        <li class="nav-item dropdown">
-            <a  class="navbar-brand" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Lunch
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#"> Page 1 </a>
-            
-            </div>
-        </li>
+
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news"> Break Fast Recipe </a>
+    <a href="#contact">Lunch Recipe </a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 
 
-
-        <a class="navbar-brand" href="#"> Lunch </a>
-        <a class="navbar-brand" href="#">About Me </a>
-
-       z
-
-    </div>
-
-</nav>
 
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="http://joycekjoseph.duckdns.org:6723/images/web/cn/001.jpg" alt="First slide">
+            <img class="d-block w-100" src="http://joycekjoseph.duckdns.org:6723/images/web/StaticRecipe/pasta.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                <font color="black">
-                    <h5> Home Garden </h5>
-                    <p> Image 1 </p>
+                <font color="#f5f5f5">
+                    <h1> Static Recipe  </h1>
+                    <p> Sentence </p>
                 </font>
             </div>
         </div>
@@ -54,9 +43,9 @@
 
 
 </body>
+<script src="js/nav.js"></script>
 
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
 </html>
